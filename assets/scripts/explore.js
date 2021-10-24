@@ -40,9 +40,9 @@ function onClick(){
     }
 }
   synth.speak(sayThis);
-  currImg.src = '/assets/images/smiling-open.png';
+  currImg.src = './assets/images/smiling-open.png';
   sayThis.addEventListener('end',() => {
-    currImg.src = '/assets/images/smiling.png';
+    currImg.src = './assets/images/smiling.png';
   });
 }
 
